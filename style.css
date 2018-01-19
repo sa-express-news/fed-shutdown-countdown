@@ -1,0 +1,18 @@
+#shutdown-countdown .time{
+    color: #ba141a;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#shutdown-countdown .chatter{
+    font-size: 13px;
+}
+
+#shutdown-countdown h4{
+    background: #ba141a;
+}
+
+#shutdown-countdown a{
+    text-decoration: underline;
+}
