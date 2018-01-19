@@ -1,0 +1,21 @@
+{
+  "name": "shutdown-countdown",
+  "version": "0.0.1",
+  "description": "Counts down to the potential January, 2018 federal government shutdown.",
+  "main": "./dist/index.js",
+  "private": true,
+  "dependencies": {
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "test",
+    "build": "NODE_ENV='production' webpack",
+    "watch": "tsc -w"
+  },
+  "author": "Kia Farhang",
+  "license": "ISC"
+}
